@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+.header{ 
+    padding: 20px 150px 20px 150px;
+    background-color: rgba(12, 89, 165, 0.223);
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    gap: 10px;
+}
+
+.hdes{
+    color: gray;
+}
+
+.hdetailstext{
+    padding: 0px 300px;
+}
+.hdetailstext h1{
+    font-size: 200%;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 13px 15px;
+    border: none;
+}
+
+.hbanner{
+    width: 100%;
+}
+
+.hbanner{
+    margin: 20px 0px;
+}
+
+
+
+.btn:hover{
+    background-color: rgb(0, 102, 255);
+}
