@@ -120,3 +120,23 @@ body{
     margin: 0px 50px;
     width: 100%;
 }
+
+.btnh{
+    font-size: 300%;
+
+}
+
+.lfbanner{
+    margin-left: 50px;
+}
+
+.lfbtn{
+    position: relative;
+    padding: 40px 50px;
+}
+
+.lfbtn:hover{
+    top: -80px;
+    /* transition-delay: 5s; */
+
+}
