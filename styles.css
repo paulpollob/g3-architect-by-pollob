@@ -56,7 +56,7 @@ body{
 }
 
 .features{
-    padding: 20px 150px 20px 150px;
+    padding: 20px 150px 50px 150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -82,4 +82,41 @@ body{
 }
 .hsecond{
     color: blue;
+}
+
+.lovedfeatures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 150px 50px 150px;
+}
+.lfdetails{
+    width: 100%;
+    margin: 0px;
+}
+
+.lfheader{
+    font-size: 300%;
+    border-left: 4px solid blue;
+    padding: 0px 10px;
+}
+
+.lfitems{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.lfitme{
+    box-shadow: 0px 1px 5px 0px gray;
+    border-radius: 5px;
+    padding: 5px 20px;
+    
+}
+.itemdes{
+    color: gray;
+}
+.lfimage{
+    margin: 0px 50px;
+    width: 100%;
 }
