@@ -27,6 +27,7 @@ body{
 }
 
 .hdetailstext{
+    font-size: 150%;
     /* padding: 0px 300px; */
 }
 .hdetailstext h1{
@@ -201,8 +202,8 @@ footer{
 }
 
 @media only screen and (max-width: 767px) {
-    .heeader{
-        padding: 20px 0px 20px 0px;
+    .header{
+        padding: 20px 10% 50px 10%;
     }
     .navbar{
         flex-direction: column;
@@ -248,5 +249,8 @@ footer{
     }
     .sponsoritems{
         flex-direction: column;
+    }
+    footer{
+        margin: 20px 10% 50px 10%;
     }
 }
