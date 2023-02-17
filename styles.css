@@ -168,3 +168,24 @@ body{
 .factitem > b {
     font-size: 200%;
 }
+
+
+.sponsor{
+    text-align: center;
+    padding: 50px 150px 50px 150px;
+}
+
+.sponsoritems{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sponsoritem{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px;
+}
