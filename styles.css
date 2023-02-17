@@ -4,7 +4,7 @@ body{
 
 .header{ 
     padding: 20px 150px 20px 150px;
-    background-color: rgba(171, 202, 218, 0.134);
+    background-color: rgba(171, 218, 206, 0.529);
     text-align: center;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -27,7 +27,7 @@ body{
 }
 
 .hdetailstext{
-    padding: 0px 300px;
+    /* padding: 0px 300px; */
 }
 .hdetailstext h1{
     font-size: 200%;
@@ -191,10 +191,19 @@ body{
 }
 
 footer{
-    background-color: rgba(171, 202, 218, 0.134);
+    background-color: rgba(171, 218, 206, 0.529);
     color: gray;
     margin: 50px 150px 50px 150px;
     border-radius: 5px;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .item{
+        flex-direction: column;
+    }
 }
