@@ -214,12 +214,24 @@ footer{
     }
     .features{
         flex-direction: column;
-        padding: 20px 0px 50px 0px;
+        padding: 20px 10% 50px 10%;
         justify-content: center;
         align-items: center;
     }
     .featuresdet{
         align-items: center;
         text-align: center;
+    }
+
+    .lovedfeatures{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 10% 50px 10%;
+    }
+    .lfbanner{
+        margin: 0px;
+        text-align: center;
+    }
+    .lfimage{
+        margin: 0px;
     }
 }
