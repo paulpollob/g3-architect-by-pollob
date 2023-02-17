@@ -113,6 +113,11 @@ body{
     padding: 5px 20px;
     
 }
+
+.itemheader{
+    font-size: 300%;
+
+}
 .itemdes{
     color: gray;
 }
@@ -138,5 +143,28 @@ body{
 .lfbtn:hover{
     top: -80px;
     /* transition-delay: 5s; */
+}
 
+.facts{
+    padding: 50px 150px 50px 150px;
+}
+
+.factsitems{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.factitem{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.factitem > b {
+    font-size: 200%;
 }
